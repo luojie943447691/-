@@ -4,8 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "6256118a720a5f31",
+        "id": "ebde416136055761",
         "type": "leaf",
+        "dimension": 50.169204737732656,
         "state": {
           "type": "markdown",
           "state": {
@@ -16,13 +17,14 @@
         }
       },
       {
-        "id": "ebde416136055761",
+        "id": "f94a91da930cacc7",
         "type": "leaf",
+        "dimension": 49.830795262267344,
         "state": {
           "type": "markdown",
           "state": {
             "file": "vim.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -99,10 +101,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6256118a720a5f31",
+  "active": "ebde416136055761",
   "lastOpenFiles": [
     "vim.md",
-    "vue3源码相关/runtime-core.md",
-    "未命名.md"
+    "vue3源码相关/runtime-core/componentOptions.ts.md",
+    "vue3源码相关/runtime-core/大致流程.md",
+    "vue3源码相关/runtime-core/componentOptions.ts 1.md",
+    "未命名.md",
+    "vue3源码相关/runtime-core.md"
   ]
 }
