@@ -275,7 +275,7 @@ d + s + 存在的字符
 ## 12.3 可视化模式的操作
 v/V + S + 以上三个操作都行
 
-# 第十三天
+# 第十三天 替换
 ## 13.1 替换命令
 需要注意前面就是有个冒号
 :\[ranges\]s\[ubstitule\]/{pattern}/{string}/{flags}
@@ -294,6 +294,205 @@ v/V + S + 以上三个操作都行
 ## 13.3 多选操作 
 gb 区分大小写，且可以多次按，选中第一次标记的单词
 
+# 第十四天 悬浮显示&大小写&注释
+## 14.1 显示悬浮
+gh 命令
+## 14.2 大小写
+### 14.2.1 normol 模式下
+- gu + 范围命令 小写
+- gU + 范围命令 大写
+### 14.2.2 可视化模式下
+- u + 范围命令 小写
+- U + 范围命令 大写
+### 14.2.3 大小写切换
+- \~ 波浪号命令
+## 14.3 注释
+- gc 单行注释
+- gC 多行注释
+
 
 # 其他无意中发现的快捷键
 - 折叠和展开代码 ctrl + \{/\}
+
+# 所有的配置
+
+```json
+// settings.json
+"vim.easymotion": true,
+
+    "vim.leader": "<Space>",
+
+    "vim.sneak": true,
+
+    // "vim.surround": true,
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+
+        {
+
+            "before":["f"],
+
+            "after":["s"]
+
+        },
+
+        {
+
+            "before":["F"],
+
+            "after":["S"]
+
+        },
+
+        {
+
+            "before":["s"],
+
+            "after":["c","l"]
+
+        },
+
+        {
+
+            "before":["S"],
+
+            "after":["^","C"]
+
+        },
+
+    ],
+
+    "vim.visualModeKeyBindings": [
+
+        {
+
+            "before":["J"],
+
+            "after":["5","j"]
+
+        },
+
+        {
+
+            "before":["K"],
+
+            "after":["5","k"]
+
+        }
+
+    ],
+
+    "vim.visualModeKeyBindingsNonRecursive": [
+
+        {
+
+            "before":["f"],
+
+            "after":["s"]
+
+        }
+
+    ],
+
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [
+
+        {
+
+            "before":["f"],
+
+            "after":["z"]
+
+        },
+
+        {
+
+            "before":["F"],
+
+            "after":["Z"]
+
+        },
+
+    ],
+
+    "vim.handleKeys": {
+
+        "<C-c>": false,
+
+        "<C-f>": true,
+
+        "<C-w>": false,
+
+        "<C-a>": false,
+
+        "<C-v>": true,
+
+    },
+
+    "vim.normalModeKeyBindings": [
+
+        {
+
+            "before":["H"],
+
+            "after":["^"]
+
+        },
+
+        {
+
+            "before":["L"],
+
+            "after":["g","_"]
+
+        },
+
+        {
+
+            "before":["J"],
+
+            "after":["5","j"]
+
+        },
+
+        {
+
+            "before":["K"],
+
+            "after":["5","k"]
+
+        },
+
+    ],
+
+    "vim.operatorPendingModeKeyBindings": [
+
+        {
+
+            "before":["H"],
+
+            "after":["^"]
+
+        },
+
+        {
+
+            "before":["L"],
+
+            "after":["g","_"]
+
+        }
+
+    ],
+
+    "vim.insertModeKeyBindings": [
+
+        {
+
+            "before":["j","j"],
+
+            "after":["<Esc>"]
+
+        }
+
+    ],
+```
