@@ -6,7 +6,7 @@
       {
         "id": "ebde416136055761",
         "type": "leaf",
-        "dimension": 50.169204737732656,
+        "dimension": 47.54653130287648,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "f94a91da930cacc7",
         "type": "leaf",
-        "dimension": 49.830795262267344,
+        "dimension": 52.45346869712352,
         "state": {
           "type": "markdown",
           "state": {
@@ -37,17 +37,9 @@
     "type": "split",
     "children": [
       {
-        "id": "04f3a691398ceaa8",
+        "id": "854ccf5a250bfe38",
         "type": "tabs",
         "children": [
-          {
-            "id": "7e8c0d7811038a45",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
           {
             "id": "1378ce55708166eb",
             "type": "leaf",
@@ -62,8 +54,17 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "7e8c0d7811038a45",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -101,9 +102,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ebde416136055761",
+  "active": "f94a91da930cacc7",
   "lastOpenFiles": [
     "vim.md",
+    "Pasted image 20220709165800.png",
     "vue3源码相关/runtime-core/componentOptions.ts.md",
     "vue3源码相关/runtime-core/大致流程.md",
     "vue3源码相关/runtime-core/componentOptions.ts 1.md",
