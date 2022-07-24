@@ -6,24 +6,10 @@
       {
         "id": "ebde416136055761",
         "type": "leaf",
-        "dimension": 47.54653130287648,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "f94a91da930cacc7",
-        "type": "leaf",
-        "dimension": 52.45346869712352,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "vim.md",
+            "file": "threejs笔记/threejs.md",
             "mode": "source",
             "source": false
           }
@@ -84,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim.md",
+                "file": "threejs笔记/threejs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,14 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f94a91da930cacc7",
+  "active": "ebde416136055761",
   "lastOpenFiles": [
     "vim.md",
+    "threejs笔记/threejs.md",
     "Pasted image 20220709165800.png",
+    "Pasted image 20220723183507.png",
+    "Pasted image 20220723183455.png",
+    "Pasted image 20220723182652.png",
+    "Pasted image 20220723182920.png",
     "vue3源码相关/runtime-core/componentOptions.ts.md",
     "vue3源码相关/runtime-core/大致流程.md",
-    "vue3源码相关/runtime-core/componentOptions.ts 1.md",
-    "未命名.md",
-    "vue3源码相关/runtime-core.md"
+    "vue3源码相关/runtime-core/componentOptions.ts 1.md"
   ]
 }
